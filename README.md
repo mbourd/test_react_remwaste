@@ -19,7 +19,7 @@
 - The main logic resides in App.js, which manages state, data fetching, and rendering of skip options.
 - UI components are organized in the components directory, each handling a specific part of the interface.
 - Styling is handled globally via index.css and locally within components using Tailwind classes.
-- The project is set up for testing with Jest and React Testing Library, as seen in App.test.js and setupTests.js.
+- The project is set up for testing with Jest and React Testing Library, as seen in SkipCard.test.js (for example) and setupTests.js.
 
 **Summary:**
 This project demonstrates best practices in modern React development, including componentization, state management, API integration, and user-centric design. It provides a seamless and interactive experience for users looking to choose the right skip for their waste disposal needs.
