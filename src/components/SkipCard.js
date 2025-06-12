@@ -20,7 +20,7 @@ export default function SkipCard({ title, price, hirePeriod, allowedOnRoad, chil
           <HirePeriod hirePeriod={hirePeriod} />
           <AllowedOnRoad allowedOnRoad={allowedOnRoad} />
           {children}
-          <div className="absolute bottom-0 left-0 h-1 w-full bg-gradient-to-r from-blue-400 to-blue-700"></div>
+          <div className={`absolute bottom-0 left-0 h-1 w-full bg-gradient-to-r ${allowedOnRoad ? 'from-blue-300 to-blue-700' : 'from-red-200 to-red-700'}`}></div>
         </div>
       </div>
     </div>
